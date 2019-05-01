@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">B_Verify</string>
+    <string name="title_myproofs">My Proofs</string>
+    <string name="title_verifyproof">Verify Proof</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

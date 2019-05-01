@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerifyFragment">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_margin="20px" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout android:id="@+id/detailsLayout" android:layout_gravity="center" android:visibility="gone" android:orientation="vertical" android:layout_margin="20px" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="Statement:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+        <TextView
+            android:id="@+id/statement"
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:background="@color/formViewBackground"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="Signed by:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+        <TextView
+            android:id="@+id/signedBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/formViewBackground"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="Valid:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+        <TextView
+            android:id="@+id/valid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/formViewBackground"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="Included in Block:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+        <TextView
+            android:id="@+id/blockHash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/formViewBackground"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="Block timestamp:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+        <TextView
+            android:id="@+id/blockTimestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/formViewBackground"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="Commitment transaction:"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+        <TextView
+            android:id="@+id/commitmentTransaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/formViewBackground"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+    </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px" />
+
+    <!-- TODO: Update blank fragment layout -->
+    <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/scanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Scan Proof" />
+    </GridLayout>
+    </LinearLayout>
+</GridLayout>

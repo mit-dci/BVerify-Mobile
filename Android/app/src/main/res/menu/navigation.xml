@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_myproofs"
+        android:icon="@drawable/myproofs"
+        android:title="@string/title_myproofs" />
+
+    <item
+        android:id="@+id/navigation_verifyproof"
+        android:icon="@drawable/verifyproof"
+        android:title="@string/title_verifyproof" />
+
+</menu>
